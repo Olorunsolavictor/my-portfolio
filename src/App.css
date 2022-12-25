@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.enabled {
+  color: #802bb1;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 4px;
+  padding: 0, 4px;
+}
+.disabled {
+  color: gray;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 4px;
+  padding: 0, 4px;
+}
+.enabled:hover {
+  color: rgb(169, 95, 235);
+}
+.enabled:active {
+  color: rgb(106, 255, 77);
+}
