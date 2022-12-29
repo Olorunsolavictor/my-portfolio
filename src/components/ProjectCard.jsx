@@ -1,4 +1,6 @@
 import React from "react";
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineLink } from "react-icons/ai";
 // import handout from "../assets/handout.png";
 import {
   Grid,
@@ -7,7 +9,6 @@ import {
   CardMedia,
   CardContent,
   CardActions,
-  Button,
   Typography,
 } from "@mui/material";
 import { Fade } from "react-awesome-reveal";
@@ -17,12 +18,12 @@ function ProjectCard({ projectList }) {
     <div className=" w-[80%] flex flex-col h-[500px] justify-center items-center ">
       <Grid
         container
-        spacing={4}
+        spacing={8}
         className=" flex flex-col  justify-center items-center"
       >
         {projectList.map((project) => (
           <Grid
-            className="rounded-[10px]"
+            className="rounded-[10px]  "
             item
             key={project.id}
             sx={12}
@@ -32,7 +33,7 @@ function ProjectCard({ projectList }) {
             <Fade>
               <Card
                 sx={{ Width: 200 }}
-                className="shadow-md hover:shadow-2xl font-mont rounded-[25px] "
+                className="shadow-md hover:shadow-2xl font-mont rounded-[25px]  "
               >
                 <CardActionArea>
                   <CardMedia
@@ -41,20 +42,27 @@ function ProjectCard({ projectList }) {
                     image={project.image}
                     alt=""
                   />
-                  <CardContent className="bg-[#05014a] text-white">
+                  <CardContent className="bg-white text-gray-900">
                     <Typography gutterBottom variant="h5" component="div">
                       {project.name}
                     </Typography>
-                    <Typography variant="body2">
+                    <Typography className="text-gray-500" variant="body2">
                       {project.description}
                     </Typography>
                   </CardContent>
                 </CardActionArea>
-                <CardActions className="bg-[#05014a] ">
-                  <a href={project.link}>
-                    <Button className=" " size="small">
-                      <p className=" ">Visit site</p>
-                    </Button>
+                <CardActions className="bg-white flex items-center justify-evenly  text-[25px] ">
+                  <a
+                    href={project.gitHub}
+                    className="text-gray-600 hover:text-purple-500"
+                  >
+                    <AiOutlineGithub />
+                  </a>
+                  <a
+                    href={project.link}
+                    className="text-gray-600 hover:text-purple-500"
+                  >
+                    <AiOutlineLink />
                   </a>
                 </CardActions>
               </Card>

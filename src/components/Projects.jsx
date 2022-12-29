@@ -14,6 +14,8 @@ function Projects() {
       description: "A platform for giving out your old items.",
       image: handout,
       link: "https://stutern-handout.web.app/",
+      gitHub:
+        "https://github.com/StuternHousemanship/HANDOUT-Frontend-Project-Team1.1.git",
     },
     {
       id: 2,
@@ -29,9 +31,14 @@ function Projects() {
     },
   ];
   return (
-    <div className="bg-[#798CAD] w-[100%] h-[900px] flex flex-col items-center justify-center">
-      <Title className="font-mont text-center text-purple-900 ">
-        <span className=" text-center">Projects</span>
+    <div
+      className="bg-[#f7f7f7] w-full py-10 sm:h-[1500px] md:h-[900px] lg:h-[650px] bg-pink-500 overflow-hidden flex flex-col items-center lg:justify-center md:justify-evenly"
+      id="projects"
+    >
+      <Title className="font-mont text-center  mt-[50px] ">
+        <span className=" text-center text-[34px]  text-purple-900">
+          Projects
+        </span>
       </Title>
       <ProjectCard projectList={projectList} />
     </div>

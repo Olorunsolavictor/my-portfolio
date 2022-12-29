@@ -7,14 +7,14 @@ import { Card } from "antd";
 
 const PictureCard = () => (
   <Card
-    className="flex-1  "
+    className="flex-1"
     hoverable
     style={{
       width: "auto",
       height: "auto",
       transition: "all 0.5s",
     }}
-    cover={<img alt="my portrait" className="bg-gray-100" src={portrait} />}
+    cover={<img alt="my portrait" className="bg-white" src={portrait} />}
   ></Card>
 );
 

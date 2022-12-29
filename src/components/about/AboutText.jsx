@@ -7,13 +7,15 @@ function AboutText() {
   return (
     <div
       // xs={{ flex: '1' }}
-      className="flex-1 p-20 font-mont shadow-xl "
+      className="flex-1 sm:py-10 md:pt-5 font-mont sm:w-[80%] w-auto px-10 md:h-[500px] shadow-xl "
     >
       <Fade>
         <Title>
-          <span className="text-[#802bb1] text-center">About Me</span>
+          <span className="text-[#802bb1] sm:text-[22px] md:text-[25px] text-center">
+            About Me
+          </span>
         </Title>
-        <p className="text-start text-white">
+        <p className="text-start text-gray-500 sm:text-center sm:text[15px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
           voluptate quaerat veritatis totam nisi impedit, officia ex doloribus
           itaque commodi id delectus eligendi assumenda ad consequatur! Aut in

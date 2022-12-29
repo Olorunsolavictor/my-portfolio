@@ -8,7 +8,10 @@ const { Title } = Typography;
 
 function Home() {
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh]  ">
+    <div
+      className="flex flex-col w-full justify-center items-center h-[100vh]  "
+      id="home"
+    >
       <Title className="font-mont text-center">
         Hi, I'm <span className="text-purple-900 text-center">Olorunsola</span>
       </Title>

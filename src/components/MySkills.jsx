@@ -4,14 +4,14 @@ import React from "react";
 
 function MySkills({ skills }) {
   return (
-    <div className="text-center flex justify-center mt-[5px] items-center h-[550px]  ">
-      <Grid container spacing={2}>
+    <div className="text-center flex justify-center mt-[5px] items-center  ">
+      <Grid container spacing={0}>
         {skills.map((skill) => (
           <Grid
-            className=" flex justify-center items-center w-[100%]"
+            className=" flex justify-center items-center w-[100%] h-[200px] "
             item
             key={skill.id}
-            sx={12}
+            xs={4}
             md={4}
             lg={3}
           >
@@ -38,18 +38,6 @@ function MySkills({ skills }) {
                 </CardContent>
               </Card>
             </Fade>
-
-            {/* <Card
-							className="flex-1"
-							hoverable
-							title={skill.name}
-							style={{
-								width: 'auto',
-								height: 'auto',
-								transition: 'all 0.5s',
-							}}
-							cover={<img alt="example" className="" src={skill.img} />}
-						></Card> */}
           </Grid>
         ))}
       </Grid>

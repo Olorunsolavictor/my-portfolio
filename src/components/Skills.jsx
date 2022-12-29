@@ -2,6 +2,7 @@
 import React from "react";
 import MySkills from "./MySkills";
 import { Typography } from "antd";
+import { Fade } from "react-awesome-reveal";
 
 const { Title } = Typography;
 function Skills() {
@@ -53,15 +54,19 @@ function Skills() {
     <div
       maxWidth="xl"
       sx={{ display: "flex" }}
-      className="flex flex-col justify-center h-screen bg-[#f7f7f7] w-full   text-center items-center"
+      className="flex flex-col justify-center sm:h-[900px] md:h-[800px] lg:h-[650px] bg-white w-full  text-center items-center"
+      id="skills"
     >
-      <div className=" w-full bg-[#f7f7f7]">
+      <div className="sm:overflow-hidden w-full bg-white">
         <Title className="font-mont text-center text-purple-900 ">
-          <span className="text-purple-900 text-center">The Tools I Use</span>
+          <Fade>
+            <span className="text-purple-900 text-[30px] text-center">
+              The Tools I Use
+            </span>
+          </Fade>
         </Title>
       </div>
 
-      {/* <Title className="font-mont text-center">The Tools I Work With</Title> */}
       <MySkills skills={skills} />
     </div>
   );
