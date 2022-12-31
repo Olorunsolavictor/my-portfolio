@@ -48,12 +48,12 @@ export const ContactMe = (result) => {
   };
 
   return (
-    <div className="md:flex md:flex-row sm:flex sm:flex-col sm:h-[900px] overflow-hidden md:h-[100vh] w-[90%] md:justify-center sm:justify-between sm:items-center mt-[100px] relative ">
-      <div className="h-[500px] flex flex-col shadow-2xl hover:shadow-2xl   rounded-md  rounded-l-none sm:w-[90%] md:w-[37%] sm:mb-[50px] md:mb-0 bg-white">
+    <div className="md:flex md:flex-col lg:flex-row sm:flex sm:flex-col sm:h-[900px] overflow-hidden md:h-[500px] w-[90%] md:justify-center sm:justify-between sm:items-center mt-[100px] relative ">
+      <div className="h-[500px] flex flex-col shadow-2xl hover:shadow-2xl rounded-lg lg:rounded-r-none sm:w-[95%] md:w-[35%] md:mb-[50px] sm:mb-[50px] bg-white">
         <header className="text-start md:ml-[40px] sm:text-center mt-12 mb-4">
           <h1 className="text-[24px] text-gray-600  ">Contact Me</h1>
           <Fade>
-            <p className="text-[14px] font-[600]   ">Please leave a message</p>
+            <p className="text-[14px] font-[600]">Please leave a message</p>
           </Fade>
         </header>
         <main className="flex flex-col  justify-center items-start h-[300px]">
@@ -108,7 +108,7 @@ export const ContactMe = (result) => {
             <p className="text-[14px] w-[200px] font-[700]">
               GitHub:
               <span className="text-gray-600 font-[600] ml-1">
-                https://github.com/Olorunsolavictor
+                github.com/Olorunsolavictor
               </span>
             </p>
           </section>
@@ -117,7 +117,7 @@ export const ContactMe = (result) => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex flex-col text-white  bg-[#2d283e] hover:shadow-2xl shadow-md md:w-[30%] sm:w-[90%] h-[500px] justify-center items-center rounded-md rounded-r-none hover:border  "
+        className="flex flex-col text-white  bg-[#2d283e] hover:shadow-2xl shadow-md md:w-[30%] sm:w-[95%] h-[500px] justify-center items-center rounded-md lg:rounded-l-none  sm:mb-[100px] md:mb-[50px] "
       >
         <h1 className="text-[20px] text-[#802bb1] sm:ml-0 md:ml-[-110px]  font-[600]">
           Send me a message

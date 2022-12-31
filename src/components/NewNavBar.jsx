@@ -8,6 +8,9 @@ const NewNavBar = () => {
   const showMenu = () => {
     setActive(!active);
   };
+  const removeMenu = () => {
+    setActive(false);
+  };
   return (
     <header className="flex items-center justify-around bg-white shadow-md fixed top-0 text-text-[#2d283e] w-full h-[60px] z-[1000]">
       <div className="justify-center items-centerflex flex-col h-[40px]">
@@ -23,7 +26,10 @@ const NewNavBar = () => {
       </div>
       <nav>
         <div className="absolute right-6 md:hidden top-6 scale-150 cursor-pointer">
-          <AiOutlineMenu onClick={showMenu} className="scale-150" />
+          <AiOutlineMenu
+            onClick={showMenu}
+            className="h-[20px] w-[20px] mb-5"
+          />
         </div>
         <ul className="hidden md:flex gap-6 p-4 font-mont text-[15px] ">
           <li>
@@ -32,7 +38,7 @@ const NewNavBar = () => {
               smooth
               to="#home"
             >
-              Home
+              <p>Home</p>
             </Link>
           </li>
           <li>

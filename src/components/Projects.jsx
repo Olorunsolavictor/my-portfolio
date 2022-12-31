@@ -32,15 +32,15 @@ function Projects() {
   ];
   return (
     <div
-      className="bg-[#f7f7f7] w-full py-10 sm:h-[1500px] md:h-[900px] lg:h-[650px] bg-pink-500 overflow-hidden flex flex-col items-center lg:justify-center md:justify-evenly"
+      className="bg-[#f7f7f7] w-full py-10 sm:h-[1500px] md:h-[100%] lg:h-[650px] flex flex-col items-center lg:justify-center md:justify-evenly"
       id="projects"
     >
-      <Title className="font-mont text-center  mt-[50px] ">
+      <Title className="font-mont text-center  sm:mt-[-50px] mt-[50px]  ">
         <span className=" text-center text-[34px]  text-purple-900">
           Projects
         </span>
       </Title>
-      <ProjectCard projectList={projectList} />
+      <ProjectCard className="" projectList={projectList} />
     </div>
   );
 }

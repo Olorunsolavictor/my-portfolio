@@ -54,14 +54,14 @@ function Skills() {
     <div
       maxWidth="xl"
       sx={{ display: "flex" }}
-      className="flex flex-col justify-center sm:h-[900px] md:h-[800px] lg:h-[650px] bg-white w-full  text-center items-center"
+      className="flex flex-col justify-center sm:h-[900px] md:h-[650px]  w-full  text-center items-center"
       id="skills"
     >
-      <div className="sm:overflow-hidden w-full bg-white">
+      <div className="sm:overflow-hidden w-full">
         <Title className="font-mont text-center text-purple-900 ">
           <Fade>
             <span className="text-purple-900 text-[30px] text-center">
-              The Tools I Use
+              Skills
             </span>
           </Fade>
         </Title>

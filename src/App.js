@@ -18,10 +18,10 @@ function App() {
         <div className="bg-white flex justify-center items-center">
           <About />
         </div>
-        <div className="bg-[#f7f7f7]">
+        <div className=" bg-[#f7f7f7]   w-full ">
           <Skills />
         </div>
-        <div className=" w-full flex items-center justify-center h-[900px]">
+        <div className="  w-full flex  items-center justify-center h-auto  ">
           <Projects />
         </div>
         <div

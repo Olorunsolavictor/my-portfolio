@@ -11,7 +11,7 @@ function AboutText() {
     >
       <Fade>
         <Title>
-          <span className="text-[#802bb1] sm:text-[22px] md:text-[25px] text-center">
+          <span className="text-purple-900 sm:text-[22px] md:text-[25px] text-center">
             About Me
           </span>
         </Title>
