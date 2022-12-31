@@ -8,9 +8,9 @@ const NewNavBar = () => {
   const showMenu = () => {
     setActive(!active);
   };
-  const removeMenu = () => {
-    setActive(false);
-  };
+  // const removeMenu = () => {
+  //   setActive(false);
+  // };
   return (
     <header className="flex items-center justify-around bg-white shadow-md fixed top-0 text-text-[#2d283e] w-full h-[60px] z-[1000]">
       <div className="justify-center items-centerflex flex-col h-[40px]">

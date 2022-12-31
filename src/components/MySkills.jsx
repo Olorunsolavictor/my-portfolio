@@ -32,9 +32,7 @@ function MySkills({ skills }) {
                   }}
                 ></CardMedia>
                 <CardContent>
-                  <Typography>
-                    <p className="text-[13px]">{skill.name}</p>
-                  </Typography>
+                  <Typography sx={{ fontSize: 13 }}>{skill.name}</Typography>
                 </CardContent>
               </Card>
             </Fade>

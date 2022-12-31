@@ -35,24 +35,23 @@ function Skills() {
     {
       name: "CSS3",
       img: "https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png",
-      id: 5,
+      id: 6,
     },
     {
       name: "Tailwind CSS",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_TO8GgFtLOmG9RCOo7brLSjoKitugo_5uJrelTTTGSz8x80c5lq81hUj99ozOmNjgOk&usqp=CAU",
-      id: 5,
+      id: 7,
     },
     {
       name: "Ant Design",
       img: "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
-      id: 5,
+      id: 8,
     },
   ];
   // const skillList = skills.map(skill => <Skill skill={skill} />);
 
   return (
     <div
-      maxWidth="xl"
       sx={{ display: "flex" }}
       className="flex flex-col justify-center sm:h-[900px] md:h-[650px]  w-full  text-center items-center"
       id="skills"

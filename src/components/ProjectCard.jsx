@@ -14,25 +14,9 @@ import { Fade } from "react-awesome-reveal";
 function ProjectCard({ projectList }) {
   return (
     <div className=" w-full flex sm:flex-col md:flex-row  sm:justify-between sm:h-[900px] md:h-[400px]  md:justify-evenly items-center  ">
-      {/* <Grid
-        container
-        spacing={8}
-        className=" flex flex-col  justify-center items-center"
-      > */}
       {projectList.map((project) => (
-        // <Grid
-        //   className="rounded-[10px]  sm:h-auto "
-        //   item
-        //   key={project.id}
-        //   sx={12}
-        //   md={12}
-        //   lg={12}
-        // >
-        <Fade>
-          <div
-            // sx={{ Width: 50 }}
-            className="shadow-md hover:shadow-2xl font-mont rounded-[25px] sm:w-[300px] md:w-[300px] sm:my-[50px] "
-          >
+        <Fade key={project.id}>
+          <div className="shadow-md hover:shadow-2xl font-mont rounded-[25px] sm:w-[300px] md:w-[300px] sm:my-[50px] ">
             <CardActionArea>
               <CardMedia
                 component="img"
