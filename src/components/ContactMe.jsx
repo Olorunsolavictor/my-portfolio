@@ -150,7 +150,7 @@ export const ContactMe = (result) => {
             className={email && !validEmail && !emailFocus ? "flex" : "hidden"}
           >
             <Fade>
-              <div className="text-orange-600 mt-2 mr-1 text-[12px]">
+              <div className="text-orange-500 mt-2 mr-1 text-[12px]">
                 <MdReportGmailerrorred />
               </div>
 
