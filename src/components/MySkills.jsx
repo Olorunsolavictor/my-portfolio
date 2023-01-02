@@ -17,7 +17,7 @@ function MySkills({ skills }) {
           >
             <Fade>
               <Card
-                className="shadow-md rounded-[50px] hover:shadow-xl font-mont"
+                className="shadow-md rounded-md hover:shadow-xl font-mont"
                 sx={{ maxWidth: 80, height: 150 }}
               >
                 <CardMedia
