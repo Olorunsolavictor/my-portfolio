@@ -3,43 +3,67 @@ import React from "react";
 import "antd/dist/antd.css";
 import { RiLinkedinLine, RiMailLine, RiGithubFill } from "react-icons/ri";
 import { TiSocialTwitter } from "react-icons/ti";
+import { Bounce, Slide } from "react-awesome-reveal";
 
 const { Title } = Typography;
 
 function Home() {
   return (
     <div
-      className="flex flex-col w-full justify-center items-center h-[100vh]  "
+      className="flex flex-col w-full justify-center text-center items-center h-[100vh]  "
       id="home"
     >
-      <Title className="font-mont text-center">
-        Hi, I'm <span className="text-purple-900 text-center">Olorunsola</span>
-      </Title>
-      <Title className="font-mont text-center ">A Frontend Web Developer</Title>
-      <p className="text-center font-mont font-normal font-color">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br /> Quaerat voluptates ratione perspiciatis debitis saepe quisquam{" "}
+      <h1 className=" sm:text-[28px] md:text-[35px] text-gray-600 font-thin">
+        Hi, I am{" "}
+        <span className="text-purple-900 font-poppins font-medium">
+          Olorunsola
+        </span>
+        ,
+        <br />a Frontend Developer from
         <br />
-        perferendis ad quibusdam deleniti commodi ex, doloremque.
+        <Bounce>
+          <span className="text-yellow-500 font-normal">Lagos.</span>
+        </Bounce>
+      </h1>
+
+      <p className="text-gray-900 md:font-[200] font-poppins md:text-[17px] sm:w-[92%]">
+        I create functional and scalable frontend products with amazing user
+        experiences.
       </p>
-      <div className="flex flex-row justify-center items-center  min-w-[33%] ">
-        <a href="https://linkedin.com/in/victor-olorunsola-93037a197">
-          <div className="rounded-full h-16 w-16 flex items-center justify-center mr-6 cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500  active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+      <div className="flex justify-evenly bg-white md:shadow-xl sm:shadow-md  hover:backdrop-blur-sm rounded-lg sm:w-[95%] md:w-[100%]  ">
+        <a
+          href="https://linkedin.com/in/victor-olorunsola-93037a197"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="rounded-full h-16 w-16 flex items-center justify-center cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500  active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiLinkedinLine className="text-black" />
           </div>
         </a>
-        <a href="https://github.com/Olorunsolavictor">
-          <div className="rounded-full h-16 w-16 flex items-center justify-center mr-6 cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+        <a
+          href="https://github.com/Olorunsolavictor"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiGithubFill className="text-black" />
           </div>
         </a>
-        <a href="https://twitter.com/Olorunsola_MD">
-          <div className="rounded-full h-16 w-16 flex items-center justify-center mr-6 cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+        <a
+          href="https://twitter.com/Olorunsola_MD"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <TiSocialTwitter className="text-black" />
           </div>
         </a>
-        <a href="https://victorolorunsola@rocketmail.com">
-          <div className="rounded-full h-16 w-16 flex items-center justify-center mr-6 cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+        <a
+          href="https://victorolorunsola@rocketmail.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiMailLine className="text-black" />
           </div>
         </a>

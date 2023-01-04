@@ -22,6 +22,7 @@ module.exports = {
       fontFamily: {
         mont: ["Montserrat"],
         display: ["Dancing Script", "cursive"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

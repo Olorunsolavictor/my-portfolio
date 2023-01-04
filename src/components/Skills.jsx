@@ -1,11 +1,13 @@
 // import { Container } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 import MySkills from "./MySkills";
 import { Typography } from "antd";
 import { Fade } from "react-awesome-reveal";
+import SoftSkills from "./SoftSkills";
 
 const { Title } = Typography;
 function Skills() {
+  const [page, setPage] = useState(1);
   const skills = [
     {
       name: "React.js",
@@ -56,17 +58,31 @@ function Skills() {
       className="flex flex-col justify-center sm:h-[900px] md:h-[650px]  w-full  text-center items-center"
       id="skills"
     >
-      <div className="sm:overflow-hidden w-full">
-        <Title className="font-mont text-center text-purple-900 ">
-          <Fade>
-            <span className="text-purple-900 text-[30px] text-center">
-              Skills
-            </span>
-          </Fade>
-        </Title>
+      <div className="sm:overflow-hidden  flex flex-col items-center justify-center w-full">
+        <Fade>
+          <span className="text-gray-600 font-poppins font-[200]  sm:text-[22px] md:text-[25px]">
+            Skills
+          </span>
+        </Fade>
+
+        <hr className="w-[5%] h-[2px] bg-gray-300 rounded border-0" />
+      </div>
+      <div className="flex flex-row justify-around items-center sm:w-[100%] md:w-[50%] my-4 h-[50px]">
+        <button
+          className="text-[16px] shadow-md hover:shadow-lg font-[400] hover:bg-gray-300 hover:text-white text-gray-600  font-poppins bg-white rounded-full py-2 px-4 active:scale-105 "
+          onClick={() => setPage(1)}
+        >
+          Tech skills
+        </button>
+        <button
+          className="text-[16px] shadow-md hover:shadow-lg font-[400] hover:bg-gray-300 hover:text-white text-gray-600  font-poppins bg-white rounded-full py-2 px-4  active:scale-105 after:bg-pink-400"
+          onClick={() => setPage(!1)}
+        >
+          Soft skills
+        </button>
       </div>
 
-      <MySkills skills={skills} />
+      {page === 1 ? <MySkills skills={skills} /> : <SoftSkills />}
     </div>
   );
 }

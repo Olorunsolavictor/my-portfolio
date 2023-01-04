@@ -10,9 +10,9 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-[#f7f7f7] h-screen flex flex-col  items-center">
+      <div className="md:bg-[#f7f7f7] sm:bg-white h-screen flex flex-col  items-center">
         <NewNavBar />
-        <div className="bg-[#f7f7f7]">
+        <div className="md:bg-[#f7f7f7] sm:bg-white">
           <Home />
         </div>
         <div className="bg-white flex justify-center items-center">
