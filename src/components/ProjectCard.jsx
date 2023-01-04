@@ -2,12 +2,7 @@ import React from "react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineLink } from "react-icons/ai";
 // import handout from "../assets/handout.png";
-import {
-  CardActionArea,
-  CardContent,
-  CardActions,
-  Typography,
-} from "@mui/material";
+import { CardActionArea, CardContent, CardActions } from "@mui/material";
 import { Fade } from "react-awesome-reveal";
 
 function ProjectCard({ projectList }) {
@@ -24,13 +19,13 @@ function ProjectCard({ projectList }) {
                 <img src={project.image} alt="logo" />
               </div>
 
-              <CardContent className="bg-white text-gray-900">
+              <CardContent className="bg-white text-gray-900 text-center">
                 {/* <Typography gutterBottom variant="h5" component="div">
                   {project.name}
                 </Typography> */}
-                <Typography className="text-gray-500" variant="body2">
+                <p className="text-gray-500 font-poppins" variant="body2">
                   {project.description}
-                </Typography>
+                </p>
               </CardContent>
             </CardActionArea>
             <CardActions className="bg-white flex items-center h-[50px] justify-evenly  text-[25px] ">

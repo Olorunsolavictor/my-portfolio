@@ -1,8 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import handoutLogo from "../assets/handoutLogo.png";
-import commerce from "../assets/e-commerce.png";
-import youtube from "../assets/youtube.png";
+// import commerce from "../assets/e-commerce.png";
+import utube from "../assets/utube.jpg";
+import shop from "../assets/shop.jpg";
 import { Typography } from "antd";
 
 function Projects() {
@@ -21,13 +22,13 @@ function Projects() {
       id: 2,
       name: "Shop it",
       description: "An e-commerce platform",
-      image: commerce,
+      image: shop,
     },
     {
       id: 3,
       name: "Youtube and API",
       description: "A platform that functions like youtube.",
-      image: youtube,
+      image: utube,
     },
   ];
   return (
