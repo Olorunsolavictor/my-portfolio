@@ -5,7 +5,7 @@ import { Typography } from "antd";
 import { Fade } from "react-awesome-reveal";
 import SoftSkills from "./SoftSkills";
 
-const { Title } = Typography;
+// const { Title } = Typography;
 function Skills() {
   const [page, setPage] = useState(1);
   const skills = [
@@ -58,9 +58,9 @@ function Skills() {
       className="flex flex-col justify-center sm:h-[900px] md:h-[650px]  w-full  text-center items-center"
       id="skills"
     >
-      <div className="sm:overflow-hidden  flex flex-col items-center justify-center w-full">
+      <div className="sm:overflow-hidden  flex flex-col items-center md:mt-5 justify-center w-full">
         <Fade>
-          <span className="text-gray-600 font-poppins font-[200]  sm:text-[22px] md:text-[25px]">
+          <span className="text-gray-600 font-poppins font-[300]  sm:text-[22px] md:text-[25px]">
             Skills
           </span>
         </Fade>
@@ -69,13 +69,13 @@ function Skills() {
       </div>
       <div className="flex flex-row justify-around items-center sm:w-[100%] md:w-[50%] my-4 h-[50px]">
         <button
-          className="text-[16px] shadow-md hover:shadow-lg font-[400] hover:bg-gray-300 hover:text-white text-gray-600  font-poppins bg-white rounded-full py-2 px-4 active:scale-105 "
+          className="text-[16px] shadow-md hover:shadow-lg font-[400]  hover:text-white text-gray-600  font-poppins bg-white rounded-md py-2 px-4 active:scale-105 active:bg-purple-300 hover:bg-purple-300 visited:bg-purple-300 "
           onClick={() => setPage(1)}
         >
           Tech skills
         </button>
         <button
-          className="text-[16px] shadow-md hover:shadow-lg font-[400] hover:bg-gray-300 hover:text-white text-gray-600  font-poppins bg-white rounded-full py-2 px-4  active:scale-105 after:bg-pink-400"
+          className="text-[16px] shadow-md hover:shadow-lg font-[400] hover:bg-purple-300 active hover:text-white text-gray-600  font-poppins bg-white rounded-md py-2 px-4 active:bg-purple-300 active:scale-105 after:bg-pink-400"
           onClick={() => setPage(!1)}
         >
           Soft skills

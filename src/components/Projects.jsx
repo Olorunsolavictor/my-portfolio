@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import handout from "../assets/handout.png";
+import handoutLogo from "../assets/handoutLogo.png";
 import commerce from "../assets/e-commerce.png";
 import youtube from "../assets/youtube.png";
 import { Typography } from "antd";
@@ -12,7 +12,7 @@ function Projects() {
       id: 1,
       name: "Handout",
       description: "A platform for giving out your old items.",
-      image: handout,
+      image: handoutLogo,
       link: "https://stutern-handout.web.app/",
       gitHub:
         "https://github.com/StuternHousemanship/HANDOUT-Frontend-Project-Team1.1.git",
