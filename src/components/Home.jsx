@@ -3,14 +3,12 @@ import React from "react";
 import "antd/dist/antd.css";
 import { RiLinkedinLine, RiMailLine, RiGithubFill } from "react-icons/ri";
 import { TiSocialTwitter } from "react-icons/ti";
-import { Bounce, Slide } from "react-awesome-reveal";
-
-const { Title } = Typography;
+import { Bounce } from "react-awesome-reveal";
 
 function Home() {
   return (
     <div
-      className="flex flex-col w-full justify-center text-center items-center h-[100vh]  "
+      className="flex flex-col w-full justify-center text-center items-center sm:h-[500px] md:h-[100vh]  "
       id="home"
     >
       <h1 className=" sm:text-[28px] md:text-[35px] text-gray-600 font-thin">

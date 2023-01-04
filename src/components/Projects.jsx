@@ -36,10 +36,11 @@ function Projects() {
       className="bg-[#f7f7f7] w-full py-10 sm:h-[1500px] md:h-[100%] lg:h-[650px] flex flex-col items-center lg:justify-center md:justify-evenly"
       id="projects"
     >
-      <Title className="font-mont text-center  sm:mt-[-50px] mt-[50px]  ">
-        <span className=" text-center text-[34px]  text-purple-900">
+      <Title className="font-mont text-center flex flex-col  items-center justify-center md:mt-4  sm:mt-[-50px] mt-[50px]  ">
+        <span className=" text-center text-[28px] font-poppins font-[300] text-gray-500 mb-2">
           Projects
         </span>
+        <hr className="w-[50%] h-[2px] bg-gray-300 rounded border-0 mb-10" />
       </Title>
       <ProjectCard className="" projectList={projectList} />
     </div>

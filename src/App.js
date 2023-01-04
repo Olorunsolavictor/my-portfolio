@@ -30,6 +30,11 @@ function App() {
         >
           <ContactMe />
         </div>
+        <footer className="w-full flex justify-center items-center h-[30px] bg-[#f7f7f7] ">
+          <p className=" font-poppins font[300]  text-gray-400">
+            designed by Olorunsola | 2021
+          </p>
+        </footer>
       </div>
     </BrowserRouter>
   );

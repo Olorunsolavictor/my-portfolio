@@ -12,20 +12,20 @@ const NewNavBar = () => {
   //   setActive(false);
   // };
   return (
-    <header className="flex items-center justify-around bg-white  shadow-md fixed top-0 text-text-[#2d283e] w-full h-[60px] z-[1000]">
+    <header className="flex items-center justify-around bg-white md:shadow-sm fixed top-0 text-text-[#2d283e] w-full h-[60px] z-[1000]">
       <div className="justify-center items-centerflex flex-col h-[40px]">
         <Link
           className="text-[#2d283e] justify-center items-center hover:text-purple-900"
           smooth
           to="#home"
         >
-          <p className="text-[22px] font-[400] cursor-pointer font-poppins">
+          <p className="md:text-[22px] sm:text-[20px] font-[400] cursor-pointer font-poppins">
             Olorunsola.dev
           </p>
         </Link>
       </div>
       <nav className=" h-[100%]">
-        <div className="absolute right-6 md:hidden top-6 scale-150 cursor-pointer">
+        <div className="absolute right-6 md:hidden sm:top-4 md:top-6 md:scale-150 cursor-pointer">
           <AiOutlineMenu
             onClick={showMenu}
             className="h-[20px] w-[20px] mb-5"
@@ -81,7 +81,11 @@ const NewNavBar = () => {
         <MenuItems showMenu={showMenu} active={active} />
       </nav>
       <a href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing">
-        <button className=" hidden md:block bg-purple-800 px-4 py-2 text-white rounded-md font-poppins font-[700]">
+        <button
+          target="_blank"
+          rel="noreferrer noopener"
+          className=" hidden md:block bg-purple-800 hover:bg-purple-800/70 active:bg-purple-300 px-4 py-2 text-white rounded-md font-poppins font-[700]"
+        >
           Resume
         </button>
       </a>

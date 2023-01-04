@@ -7,7 +7,7 @@ function AboutText() {
   return (
     <div
       // xs={{ flex: '1' }}
-      className="flex-1 sm:py-10 md:py-10 font-mont sm:w-[90%] w-auto px-10 md:h-auto shadow-xl "
+      className="flex-1 sm:py-10 md:py-5 font-mont sm:w-[90%] w-auto px-10 md:h-auto shadow-xl "
     >
       <Fade>
         <div className="text-center flex flex-col items-center md:mb-5">
@@ -16,7 +16,7 @@ function AboutText() {
           </span>
           <hr className="w-[20%] h-[2px] bg-gray-300 rounded border-0" />
         </div>
-        <p className="text-start text-gray-500 font-poppins font-[200] sm:text-center md:text-[13px] sm:text-[12px]">
+        <p className="text-start text-gray-500 p-2 font-poppins font-[200] sm:text-start md:text-[13px] sm:text-[13px]">
           Hi again! I am Victor Olorunsola, a budding Frontend Developer who
           loves to design and build the user interfaces of functional web
           applications while contributing to the success of the entire product.
@@ -48,7 +48,7 @@ function AboutText() {
           art, and a serial learner.
         </p>
         <Fade
-          className="text-center text-gray-600 text-[17px] whitespace-normal lowercase font-poppins font-[200] "
+          className="text-center text-gray-600 sm:text-[15px] md:text-[17px] whitespace-normal lowercase font-poppins font-[200] "
           Fade
           delay={1e3}
           cascade
