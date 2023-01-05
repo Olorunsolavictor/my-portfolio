@@ -9,12 +9,12 @@ const MenuItems = ({ showMenu, active }) => {
       <ul
         className={
           active
-            ? "flex flex-col fixed inset-0 left-1/4 bg-white/90 backdrop-blur-sm cursor-pointer gap-6 p-8 justify-center items-center md:hidden"
+            ? "flex flex-col fixed inset-0 left-[30%] bg-white/80 backdrop-blur-sm cursor-pointer gap-6 p-8 justify-center items-center md:hidden"
             : "hidden"
         }
       >
         <AiOutlineClose onClick={showMenu} />
-        <li>
+        <li className="font-poppins font-[300]">
           <Link
             className="text-[#2d283e] hover:text-purple-900"
             smooth
@@ -60,7 +60,7 @@ const MenuItems = ({ showMenu, active }) => {
           </Link>
         </li>
         <a href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing">
-          <button className=" bg-[#2d283e] px-4 py-2 text-orange-600 rounded-md font-[700]">
+          <button className="  bg-purple-800 hover:bg-purple-800/70 active:bg-purple-300 px-4 py-2 text-white rounded-md font-poppins font-[700]">
             Resume
           </button>
         </a>

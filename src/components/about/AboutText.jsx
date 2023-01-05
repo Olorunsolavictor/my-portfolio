@@ -1,8 +1,6 @@
-import { Typography } from "antd";
 import { Fade } from "react-awesome-reveal";
 import React from "react";
 
-const { Title } = Typography;
 function AboutText() {
   return (
     <div

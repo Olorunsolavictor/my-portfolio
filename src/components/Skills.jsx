@@ -69,13 +69,13 @@ function Skills() {
       </div>
       <div className="flex flex-row justify-around items-center sm:w-[100%] md:w-[50%] my-4 h-[50px]">
         <button
-          className="text-[16px] shadow-md hover:shadow-lg font-[400]  hover:text-white text-gray-600  font-poppins bg-white rounded-md py-2 px-4 active:scale-105 active:bg-purple-300 hover:bg-purple-300 visited:bg-purple-300 "
+          className="text-[16px] shadow-md hover:shadow-lg font-[400] focus:bg-purple-300 hover:text-white focus:text-white text-gray-600  font-poppins bg-white rounded-md py-2 px-4 active:scale-105 active:bg-purple-300 hover:bg-purple-300 visited:bg-purple-300 "
           onClick={() => setPage(1)}
         >
           Tech skills
         </button>
         <button
-          className="text-[16px] shadow-md hover:shadow-lg font-[400] hover:bg-purple-300 active hover:text-white text-gray-600  font-poppins bg-white rounded-md py-2 px-4 active:bg-purple-300 active:scale-105 after:bg-pink-400"
+          className="text-[16px] shadow-md hover:shadow-lg font-[400] hover:bg-purple-300 active hover:text-white text-gray-600  font-poppins bg-white rounded-md py-2 px-4 active:bg-purple-300 active:scale-105 after:bg-pink-400  focus:bg-purple-300 focus:text-white"
           onClick={() => setPage(!1)}
         >
           Soft skills

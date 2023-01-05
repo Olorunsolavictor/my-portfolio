@@ -1,4 +1,3 @@
-import { Typography } from "antd";
 import React from "react";
 import "antd/dist/antd.css";
 import { RiLinkedinLine, RiMailLine, RiGithubFill } from "react-icons/ri";
@@ -11,7 +10,7 @@ function Home() {
       className="flex flex-col w-full justify-center text-center items-center sm:h-[500px] md:h-[100vh]  "
       id="home"
     >
-      <h1 className=" sm:text-[28px] md:text-[35px] text-gray-600 font-thin">
+      <h1 className=" sm:text-[28px] sm:mt-[50px] md:text-[35px] text-gray-600 font-thin">
         Hi, I am{" "}
         <span className="text-purple-900 font-poppins font-medium">
           Olorunsola
@@ -24,7 +23,7 @@ function Home() {
         </Bounce>
       </h1>
 
-      <p className="text-gray-900 md:font-[200] font-poppins md:text-[17px] sm:w-[92%]">
+      <p className="text-gray-900 md:font-[200] sm:font-[200] font-poppins md:text-[17px] sm:w-[92%]">
         I create functional and scalable frontend products with amazing user
         experiences.
       </p>
@@ -57,9 +56,9 @@ function Home() {
           </div>
         </a>
         <a
-          href="https://victorolorunsola@rocketmail.com"
-          target="_blank"
-          rel="noreferrer noopener"
+          href="mailto:olorunsolavictorp@gmail.com"
+          // target="_blank"
+          // rel="noreferrer noopener"
         >
           <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiMailLine className="text-black" />

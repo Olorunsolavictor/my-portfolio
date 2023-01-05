@@ -33,10 +33,10 @@ function Projects() {
   ];
   return (
     <div
-      className="bg-[#f7f7f7] w-full py-10 sm:h-[1500px] md:h-[100%] lg:h-[650px] flex flex-col items-center lg:justify-center md:justify-evenly"
+      className="bg-white w-full py-10 sm:h-[1500px] md:h-[100%] lg:h-[650px] flex flex-col items-center lg:justify-center md:justify-evenly"
       id="projects"
     >
-      <Title className="font-mont text-center flex flex-col  items-center justify-center md:mt-4  sm:mt-[-50px] mt-[50px]  ">
+      <Title className="font-mont text-center flex flex-col  items-center justify-center md:mt-4  sm:mt-[50px] mt-[50px]  ">
         <span className=" text-center text-[28px] font-poppins font-[300] text-gray-500 mb-2">
           Projects
         </span>

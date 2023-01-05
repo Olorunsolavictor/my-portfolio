@@ -60,7 +60,7 @@ export const ContactMe = (result) => {
             delay={1e3}
             cascade
             damping={0.1}
-            className="text-[14px] font-[400] text-blue-400 "
+            className="text-[14px] font-[200] text-gray-400 "
           >
             {/* <p className="text-[14px] font-[300] text-yellow-400"> */}
             Please leave a message
@@ -108,7 +108,7 @@ export const ContactMe = (result) => {
             <p className="text-[14px] w-[200px] font-[700]">
               {/* <span className="sm:hidden md:flex">Website:</span> */}
               <span className="text-gray-600 font-[400] ml-1">
-                yoursite.com
+                olorunsola.netlify.app
               </span>
             </p>
           </section>
@@ -141,7 +141,7 @@ export const ContactMe = (result) => {
           placeholder="Full Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className=" border-l-0 placeholder-white placeholder:text-[14px] text-white border-r-0 border-t-0 pb-0 mb-0  w-[80%] h-[50px] text-[16px] border-[1px]  outline-0 bg-[#2d283e] active:bg-[#2d283e] hover:bg-[#2d283e] "
+          className=" border-l-0 placeholder-white placeholder:text-[14px] text-white border-r-0 border-t-0 pb-0 mb-0  w-[80%] h-[50px] text-[16px] border-[1px]  outline-none bg-[#2d283e] active:bg-[#2d283e] hover:bg-[#2d283e] "
         />
 
         <input
@@ -149,7 +149,7 @@ export const ContactMe = (result) => {
           autoComplete="off"
           name="user_email"
           placeholder="Email"
-          className="border-l-0 border-r-0 placeholder-white placeholder:text-[14px] border-t-0  pb-0 mb-1 w-[80%]  h-[50px] text-[16px] bg-[#2d283e] border-[1px] outline-0 active:bg-[#2d283e] hover:bg-[#2d283e]"
+          className="border-l-0 border-r-0 placeholder-white placeholder:text-[14px] border-t-0  pb-0 mb-1 w-[80%]  h-[50px] text-[16px] bg-[#2d283e] border-[1px] outline-none active:bg-[#2d283e] hover:bg-[#2d283e]"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           onFocus={() => setEmailFocus(true)}
@@ -178,7 +178,7 @@ export const ContactMe = (result) => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Message"
-          className="border-l-0 placeholder-white placeholder:text-[14px] border-r-0 border-t-0 w-[80%] bg-[#2d283e] text-[14px]  border-[1px]  outline-0 active:bg-[#2d283e] hover:bg-[#2d283e]"
+          className="border-l-0 placeholder-white placeholder:text-[14px] border-r-0 border-t-0 w-[80%] bg-[#2d283e] text-[14px]  border-[1px]  outline-none active:bg-[#2d283e] hover:bg-[#2d283e]"
         />
         <div className="w-[80%] whitespace-nowrap">
           <button
