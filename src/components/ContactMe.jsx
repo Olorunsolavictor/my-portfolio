@@ -144,7 +144,7 @@ export const ContactMe = (result) => {
         onSubmit={sendEmail}
         className="flex flex-col text-white  bg-[#2d283e] hover:shadow-2xl shadow-md md:w-[30%] sm:w-[97%] sm:h-[600px] md:h-[470px] justify-center items-center rounded-md lg:rounded-l-none  sm:mb-[100px] md:mb-[50px] "
       >
-        <h1 className="text-[20px] text-[#802bb1] sm:ml-0 md:ml-[-90px] mt-8 font-[500]">
+        <h1 className="text-[20px] text-purple-700/90 sm:ml-0 md:ml-[-90px] mt-8 font-[500]">
           Send me a message
         </h1>
 
@@ -202,7 +202,9 @@ export const ContactMe = (result) => {
           >
             <p
               className={
-                !validEmail || !name || !message ? "disabled" : "enabled"
+                !validEmail || !name || !message
+                  ? "disabled"
+                  : "enabled text-purple-700/90"
               }
             >
               <span className="flex items-center justify-start">

@@ -15,12 +15,12 @@ const NewNavBar = () => {
     <header className="flex items-center justify-around bg-white md:shadow-sm fixed top-0 text-text-[#2d283e] w-full h-[60px] z-[1000]">
       <div className="justify-center items-centerflex flex-col h-[40px]">
         <Link
-          className="text-[#2d283e] justify-center items-center hover:text-purple-900"
+          className="text-[#2d283e] justify-center items-center "
           smooth
           to="#home"
         >
           <p className="md:text-[22px] sm:text-[20px] font-[400] cursor-pointer font-poppins">
-            Olorunsola.dev
+            olorunsola.dev
           </p>
         </Link>
       </div>

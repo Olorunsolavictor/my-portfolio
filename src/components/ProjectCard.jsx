@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineGithub } from "react-icons/ai";
-import { AiOutlineLink } from "react-icons/ai";
-// import handout from "../assets/handout.png";
+import { FiExternalLink } from "react-icons/fi";
 import { CardActionArea, CardContent, CardActions } from "@mui/material";
 import { Fade } from "react-awesome-reveal";
 
@@ -39,7 +38,7 @@ function ProjectCard({ projectList }) {
                 href={project.link}
                 className="text-gray-500 hover:text-gray-500/50  active:scale-110"
               >
-                <AiOutlineLink />
+                <FiExternalLink />
               </a>
             </CardActions>
           </div>
