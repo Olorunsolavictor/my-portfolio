@@ -14,7 +14,7 @@ function AboutText() {
           </span>
           <hr className="w-[20%] h-[2px] bg-gray-300 rounded border-0" />
         </div>
-        <p className="text-start text-gray-500 p-2 font-poppins font-[200] sm:text-start md:text-[13px] sm:text-[13px]">
+        <p className="text-start text-gray-500 p-2 font-poppins font-[300] sm:text-start md:text-[13px] sm:text-[13px]">
           Hi again! I am Victor Olorunsola, a budding Frontend Developer who
           loves to design and build the user interfaces of functional web
           applications while contributing to the success of the entire product.
