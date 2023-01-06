@@ -22,6 +22,7 @@ function App() {
             <AiOutlineArrowUp className="text-black" />
           </div>
         </Link>
+
         <NewNavBar />
         <div className="md:bg-[#f7f7f7] sm:bg-white">
           <Home />

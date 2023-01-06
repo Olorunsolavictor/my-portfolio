@@ -4,9 +4,11 @@ import { MdLocationPin } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import { RiSendPlaneFill } from "react-icons/ri";
 import { BiWorld } from "react-icons/bi";
-import { AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineCheckCircle } from "react-icons/ai";
+import { RiMailSendFill } from "react-icons/ri";
 import { Fade } from "react-awesome-reveal";
 import { MdReportGmailerrorred } from "react-icons/md";
+import { notification } from "antd";
 
 export const ContactMe = (result) => {
   const form = useRef();
@@ -23,12 +25,23 @@ export const ContactMe = (result) => {
       );
     setValidEmail(emailRegex);
   }, [email]);
+  const openNotification = () => {
+    notification.open({
+      message: "Success!!!",
+      description: "Message sent",
+      icon: <AiOutlineCheckCircle className="text-green-500" />,
+      // onClick: () => {
+      //   console.log("Notification Clicked!");
+      // },
+    });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
     setEmail("");
     setName("");
     setMessage("");
+    openNotification();
 
     emailjs
       .sendForm(
@@ -43,6 +56,7 @@ export const ContactMe = (result) => {
         },
         (error) => {
           const errorMessage = error.text;
+
           console.log(errorMessage);
         }
       );
@@ -128,7 +142,7 @@ export const ContactMe = (result) => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex flex-col text-white  bg-[#2d283e] hover:shadow-2xl shadow-md md:w-[30%] sm:w-[95%] sm:h-[600px] md:h-[470px] justify-center items-center rounded-md lg:rounded-l-none  sm:mb-[100px] md:mb-[50px] "
+        className="flex flex-col text-white  bg-[#2d283e] hover:shadow-2xl shadow-md md:w-[30%] sm:w-[97%] sm:h-[600px] md:h-[470px] justify-center items-center rounded-md lg:rounded-l-none  sm:mb-[100px] md:mb-[50px] "
       >
         <h1 className="text-[20px] text-[#802bb1] sm:ml-0 md:ml-[-90px] mt-8 font-[500]">
           Send me a message
@@ -182,7 +196,7 @@ export const ContactMe = (result) => {
         />
         <div className="w-[80%] whitespace-nowrap">
           <button
-            className=" w-[40%] text-center h-[55px] mt-5  "
+            className=" w-[40%] text-center h-[55px] mt-5 cursor-pointer "
             type="submit"
             disabled={!validEmail || !name}
           >
@@ -191,7 +205,10 @@ export const ContactMe = (result) => {
                 !validEmail || !name || !message ? "disabled" : "enabled"
               }
             >
-              Send Message
+              <span className="flex items-center justify-start">
+                Send
+                <RiMailSendFill className="ml-2 text-white" />
+              </span>
             </p>
           </button>
         </div>

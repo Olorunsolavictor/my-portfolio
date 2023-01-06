@@ -31,13 +31,13 @@ function ProjectCard({ projectList }) {
             <CardActions className="bg-white flex items-center h-[50px] justify-evenly  text-[25px] ">
               <a
                 href={project.gitHub}
-                className="text-gray-600 hover:text-purple-500"
+                className="text-gray-400 hover:text-gray-500/50  active:scale-110"
               >
                 <AiOutlineGithub />
               </a>
               <a
                 href={project.link}
-                className="text-gray-600 hover:text-purple-500"
+                className="text-gray-500 hover:text-gray-500/50  active:scale-110"
               >
                 <AiOutlineLink />
               </a>

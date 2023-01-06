@@ -14,7 +14,7 @@ function Projects() {
       name: "Handout",
       description: "A platform for giving out your old items.",
       image: handoutLogo,
-      link: "https://stutern-handout.web.app/",
+      link: "https://stutern-handout.web.app/signup",
       gitHub:
         "https://github.com/StuternHousemanship/HANDOUT-Frontend-Project-Team1.1.git",
     },
@@ -23,6 +23,8 @@ function Projects() {
       name: "Shop it",
       description: "An e-commerce platform",
       image: shop,
+      link: "https://shop-out.netlify.app/",
+      gitHub: "https://github.com/Olorunsolavictor/shop-out",
     },
     {
       id: 3,
