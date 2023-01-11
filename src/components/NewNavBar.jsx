@@ -80,12 +80,12 @@ const NewNavBar = () => {
         </ul>
         <MenuItems showMenu={showMenu} active={active} />
       </nav>
-      <a href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing">
-        <button
-          target="_blank"
-          rel="noreferrer noopener"
-          className=" hidden md:block bg-purple-800 hover:bg-purple-800/70 active:bg-purple-300 px-4 py-2 text-white rounded-md font-poppins font-[700]"
-        >
+      <a
+        target="_blank"
+        rel="noreferrer noopener"
+        href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing"
+      >
+        <button className=" hidden md:block bg-purple-800 hover:bg-purple-800/70 active:bg-purple-300 px-4 py-2 text-white rounded-md font-poppins font-[700]">
           Resume
         </button>
       </a>

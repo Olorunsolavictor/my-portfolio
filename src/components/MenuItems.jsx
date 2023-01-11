@@ -64,7 +64,11 @@ const MenuItems = ({ showMenu, active }) => {
             Contact
           </Link>
         </li>
-        <a href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing">
+        <a
+          href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <button
             className="  bg-purple-800 hover:bg-purple-800/70 active:bg-purple-300 px-4 py-2 text-white rounded-md font-poppins font-[700]"
             onClick={showMenu}
