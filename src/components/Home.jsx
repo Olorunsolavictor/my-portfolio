@@ -16,7 +16,7 @@ function Home() {
           Olorunsola
         </span>
         ,
-        <br />a Frontend Developer from
+        <br />a budding Frontend Developer from
         <br />
         <Bounce>
           <span className="text-yellow-500 font-normal">Lagos.</span>
@@ -33,7 +33,7 @@ function Home() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <div className="rounded-full h-16 w-16 flex items-center justify-center cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500  active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+          <div className="rounded-full h-16 w-16 flex items-center justify-center cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 hover:bg-cyan-300/30 transition duration-500  active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiLinkedinLine className="text-black" />
           </div>
         </a>
@@ -42,7 +42,7 @@ function Home() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 hover:bg-yellow-300/30  transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiGithubFill className="text-black" />
           </div>
         </a>
@@ -51,7 +51,7 @@ function Home() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 hover:bg-green-300/30  transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <TiSocialTwitter className="text-black" />
           </div>
         </a>
@@ -60,7 +60,7 @@ function Home() {
           // target="_blank"
           // rel="noreferrer noopener"
         >
-          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
+          <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 hover:bg-indigo-300/30  transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiMailLine className="text-black" />
           </div>
         </a>

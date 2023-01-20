@@ -14,7 +14,7 @@ function Projects() {
       name: "Handout",
       description: "A platform for giving out your old items.",
       image: handoutLogo,
-      link: "https://handout-stutern.web.app/signup",
+      link: "/projectdetails",
 
       gitHub:
         "https://github.com/StuternHousemanship/HANDOUT-Frontend-Project-Team1.1.git",

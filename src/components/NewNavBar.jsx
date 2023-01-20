@@ -34,7 +34,7 @@ const NewNavBar = () => {
         <ul className="hidden md:flex justify-center items-center gap-6 p-4 font-poppins font-[300] text-[15px] ">
           <li>
             <Link
-              className="text-[#424242] hover:text-purple-900"
+              className="text-[#424242] hover:text-purple-900  hover:bg-purple-200"
               smooth
               to="#home"
             >
@@ -43,7 +43,7 @@ const NewNavBar = () => {
           </li>
           <li>
             <Link
-              className="text-[#424242] hover:text-purple-900"
+              className="text-[#424242] hover:text-purple-900   hover:bg-purple-200 active:text-purple-900 "
               smooth
               to="#about"
             >
@@ -52,7 +52,7 @@ const NewNavBar = () => {
           </li>
           <li>
             <Link
-              className="text-[#424242] hover:text-purple-900"
+              className="text-[#424242] hover:text-purple-900  hover:bg-purple-200"
               smooth
               to="#skills"
             >
@@ -61,7 +61,7 @@ const NewNavBar = () => {
           </li>
           <li>
             <Link
-              className="text-[#424242] hover:text-purple-900"
+              className="text-[#424242] hover:text-purple-900  hover:bg-purple-200"
               smooth
               to="#projects"
             >
@@ -70,7 +70,7 @@ const NewNavBar = () => {
           </li>
           <li>
             <Link
-              className="text-[#2d283e] hover:text-purple-900"
+              className="text-[#2d283e] hover:text-purple-900  hover:bg-purple-200"
               smooth
               to="#contactMe"
             >

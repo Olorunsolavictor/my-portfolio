@@ -3,10 +3,7 @@ import React from "react";
 
 function AboutText() {
   return (
-    <div
-      // xs={{ flex: '1' }}
-      className="flex-1 sm:py-10 md:py-5 font-mont sm:w-[90%] w-auto px-10 md:h-auto shadow-xl "
-    >
+    <div className="flex-1 sm:py-10 md:py-5 font-mont sm:w-[90%] w-auto px-10 md:h-auto shadow-xl ">
       <Fade>
         <div className="text-center flex flex-col items-center md:mb-5">
           <span className="text-gray-600 font-poppins font-[200]  sm:text-[22px] md:text-[25px]">
@@ -46,7 +43,7 @@ function AboutText() {
           art, and a serial learner.
         </p>
         <Fade
-          className="text-center text-gray-600 sm:text-[15px] md:text-[17px] whitespace-normal lowercase font-poppins font-[200] "
+          className="text-center text-gray-600 sm:text-[15px] md:text-[17px] whitespace-normal mb-5 lowercase font-poppins font-[200] "
           Fade
           delay={1e3}
           cascade
@@ -54,6 +51,15 @@ function AboutText() {
         >
           Can we build something together?
         </Fade>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing"
+        >
+          <button className=" block bg-purple-800 hover:bg-purple-800/70 active:bg-purple-300 px-4 py-2 text-white rounded-md font-poppins font-[700]">
+            Resume
+          </button>
+        </a>
       </Fade>
     </div>
   );

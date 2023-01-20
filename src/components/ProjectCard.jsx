@@ -10,7 +10,7 @@ function ProjectCard({ projectList }) {
       {projectList.map((project) => (
         <Fade key={project.id}>
           <div className="shadow-md hover:shadow-2xl font-month-[400px] sm:w-[300px] md:w-[300px] sm:my-[50px] ">
-            <a href={project.link} target="_blank" rel="noreferrer noopener">
+            <a href={project.link}>
               <CardActionArea>
                 <div
                   className="bg-white h-[250px] flex items-center  justify-center "
@@ -20,9 +20,6 @@ function ProjectCard({ projectList }) {
                 </div>
 
                 <CardContent className="bg-white text-gray-900 text-center">
-                  {/* <Typography gutterBottom variant="h5" component="div">
-                  {project.name}
-                </Typography> */}
                   <p className="text-gray-500 font-poppins" variant="body2">
                     {project.description}
                   </p>
