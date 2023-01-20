@@ -52,7 +52,7 @@ function ProjectDetails() {
       <button
         onClick={() => navigate(-1)}
         smooth
-        className="fixed z-50 font-poppins text-lg md:top-[5%] sm:top-[5%] sm:left-[80%] md:left-[90%]"
+        className="fixed rounded-full z-50 font-poppins text-lg md:top-[5%] sm:top-[5%] sm:left-[80%] md:left-[90%]"
       >
         <div className="rounded-full   h-16 w-16 flex items-center justify-center cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 transition duration-500  active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
           <RiArrowGoBackFill className="text-black" />
