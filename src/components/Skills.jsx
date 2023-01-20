@@ -1,11 +1,8 @@
-// import { Container } from "@mui/material";
 import React, { useState } from "react";
 import MySkills from "./MySkills";
-import { Typography } from "antd";
 import { Fade } from "react-awesome-reveal";
 import SoftSkills from "./SoftSkills";
 
-// const { Title } = Typography;
 function Skills() {
   const [page, setPage] = useState(1);
   const skills = [
