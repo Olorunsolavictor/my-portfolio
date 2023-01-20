@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import handoutLogo from "../assets/handoutLogo.png";
-// import commerce from "../assets/e-commerce.png";
 import utube from "../assets/utube.jpg";
 import shop from "../assets/shop.jpg";
 import { Typography } from "antd";

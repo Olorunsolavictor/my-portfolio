@@ -27,7 +27,11 @@ function ProjectDetails() {
       }
     });
   }, []);
-
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+    });
+  }, []);
   const bottomToTop = () => {
     window.scrollTo({
       top: 0,
