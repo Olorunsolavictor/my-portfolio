@@ -23,7 +23,7 @@ function Projects() {
       name: "Shop it",
       description: "An e-commerce platform",
       image: shop,
-      link: "https://shop-out.netlify.app/",
+      link: "/shopout",
       gitHub: "https://github.com/Olorunsolavictor/shop-out",
     },
     {

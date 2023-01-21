@@ -12,7 +12,7 @@ function ProjectCard({ projectList }) {
       {projectList.map((project) => (
         <Fade key={project.id}>
           <div className="shadow-md hover:shadow-2xl font-month-[400px] sm:w-[300px] md:w-[300px] sm:my-[50px] ">
-            <CardActionArea onClick={() => navigate("/projectdetails")}>
+            <CardActionArea onClick={() => navigate(project.link)}>
               <div
                 className="bg-white h-[250px] flex items-center  justify-center "
                 component="img"

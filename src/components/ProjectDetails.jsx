@@ -63,17 +63,20 @@ function ProjectDetails() {
         </div>
       </button>
 
-      <div className="text-center flex flex-col items-center md:mt-[20px]  sm:mt-10 md:mb-[20px] sm:mb- ">
+      <div className="text-center flex flex-col items-center md:mt-[20px]  sm:mt-10 md:mb-[20px] sm:mb-3 ">
         <span className="text-gray-600 font-poppins font-[500] sm:text-[27px] md:text-[30px]">
           Handout
         </span>
         <hr className="w-[20%] h-[2px] bg-gray-300 rounded border-0" />
       </div>
-      <p className="mb-[10px] text-gray-600  font-poppins font-[400]  sm:text-[18px]">
-        Handout is a platform for giving out unwanted personal items. This
-        platform allows people to give out useful but <br />
-        unwanted items to others who may need them
-      </p>
+      <div className="sm:w-[80%]">
+        <p className="mb-[10px] text-gray-600  font-poppins font-[400]  sm:text-[16px]">
+          Handout is a platform for giving out unwanted personal items. This
+          platform allows people to give out useful but <br />
+          unwanted items to others who may need them
+        </p>
+      </div>
+
       <p className="mb-[10px]  text-gray-600 font-poppins font-[200] text-[18px]">
         <span className="font-[500]">Project Year:</span> 2021
       </p>
