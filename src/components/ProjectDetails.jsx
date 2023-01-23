@@ -78,7 +78,7 @@ function ProjectDetails() {
       </div>
 
       <p className="mb-[10px]  text-gray-600 font-poppins font-[200] text-[18px]">
-        <span className="font-[500]">Project Year:</span> 2021
+        <span className="font-[500]">Project Year:</span> 2022
       </p>
       <p className="mb-[100px]  text-gray-600 font-poppins font-[200] text-[18px]">
         <span className="font-[500]">Project Duration:</span> 6 Weeks

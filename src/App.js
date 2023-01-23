@@ -1,11 +1,11 @@
 import { lazy, Suspense } from "react";
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
-import ProjectDetails from "./components/ProjectDetails";
-import ShopOut from "./components/ShopOut";
 import { Route, Routes } from "react-router-dom";
 import { ReactComponent as LoadingIcon } from "./assets/loading-icon.svg";
 const LandingPage = lazy(() => import("./components/LandingPage"));
+const ProjectDetails = lazy(() => import("./components/ProjectDetails"));
+const ShopOut = lazy(() => import("./components/ShopOut"));
 
 function App() {
   return (
