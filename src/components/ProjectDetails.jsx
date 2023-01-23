@@ -100,7 +100,7 @@ function ProjectDetails() {
           </span>
           <hr className="w-[5%] h-[2px] bg-gray-300 rounded border-0 " />
         </div>
-        <p className="mb-[10px] text-gray-600 font-poppins font-[400] ">
+        <p className="mb-[10px] text-start text-gray-600 font-poppins font-[400] ">
           Handout is a platform for giving out unwanted personal items. This
           platform allows people to give out useful but unwanted items to others
           who may need them. The aim of Handout is to allow users to create an
@@ -202,10 +202,9 @@ function ProjectDetails() {
           <div className=" w-full p-5 text-start mb-0 mt-5">
             <p className=" font-[500] leading-3">Problem</p>
             <p>
-              Users should be able to see view layout to reset password as well
-              as reset their password.
+              Users should be able to view layout to reset password and they
+              should be able to reset their password.
             </p>
-            <p>Users should be able to trigger a reset password.</p>
           </div>
           <div className=" w-full p-5 text-start  ">
             <p className=" font-[500] leading-3">Solution</p>
@@ -230,8 +229,14 @@ function ProjectDetails() {
               </li>
               <li>
                 <p>React-Router-Dom </p>
+              </li>
+              <li>
                 <p>Swagger (documentation) </p>
+              </li>
+              <li>
                 <p>Figma </p>
+              </li>
+              <li>
                 <p>VS Code(IDE) </p>
               </li>
             </ul>
@@ -257,9 +262,9 @@ function ProjectDetails() {
           <div className=" w-full p-5 text-start mb-0 mt-5">
             <p className=" font-[500] leading-3">Problem</p>
             <p>
-              Users should be able to add items to their listings by adding 7
-              images, a description, colour, condition, price and shipping
-              optons for each item.
+              Users should be able to add items to their listings by adding, at
+              most, 7 images, a description, colour, condition, price and
+              shipping optons for each item.
             </p>
           </div>
           <div className=" w-full p-5 text-start  ">
@@ -317,7 +322,7 @@ function ProjectDetails() {
           </span>
           <hr className="w-[5%] h-[2px] bg-gray-300 rounded border-0 " />
         </div>
-        <p className="mb-[10px] text-gray-600 font-poppins font-[400] ">
+        <p className="mb-[10px] text-start text-gray-600 font-poppins font-[400] ">
           The Handout project is a hypothetical product that solves a real-life
           problem and is a confidence booster for me. It has helped provide me
           with hands-on experience while working alongside other teams to
