@@ -99,7 +99,7 @@ function LandingPage() {
           </div>
 
           <p className=" font-poppins font[300]  text-gray-400 sm:text-[14px]">
-            Designed by Olorunsola | 2021
+            Designed with React.js by Olorunsola | 2021
           </p>
         </footer>
       </div>

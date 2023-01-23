@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Suspense
         fallback={
-          <div className="flex justify-center mt-60">
+          <div className="flex flex-col items-center justify-center mt-60">
             <LoadingIcon className="suspense-loading-icon" />
           </div>
         }
