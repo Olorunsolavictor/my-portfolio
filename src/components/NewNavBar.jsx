@@ -80,6 +80,7 @@ const NewNavBar = () => {
         </ul>
         <MenuItems showMenu={showMenu} active={active} />
       </nav>
+
       <a
         target="_blank"
         rel="noreferrer noopener"

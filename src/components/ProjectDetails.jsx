@@ -386,7 +386,7 @@ function ProjectDetails() {
         </div>
 
         <p className=" font-poppins font[300]  text-gray-400">
-          Designed from scratch by Olorunsola | 2021
+          Designed with React.js by Olorunsola | 2021
         </p>
       </footer>
     </div>
