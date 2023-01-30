@@ -13,7 +13,9 @@ const MenuItems = ({ showMenu, active }) => {
             : "hidden"
         }
       >
+        {/* <div className="absolute right-[20vw] sm:top-4 md:top-6 md:scale-150 cursor-pointer"> */}
         <AiOutlineClose onClick={showMenu} />
+        {/* </div> */}
         <li className="font-poppins font-[300]">
           <Link
             className="text-[#2d283e] hover:text-purple-900"
@@ -65,7 +67,7 @@ const MenuItems = ({ showMenu, active }) => {
           </Link>
         </li>
         <a
-          href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1H8WSZ1svIjhqhsP_1PlDII3YPu1nnILs/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
         >

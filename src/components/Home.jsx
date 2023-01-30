@@ -55,11 +55,7 @@ function Home() {
             <TiSocialTwitter className="text-black" />
           </div>
         </a>
-        <a
-          href="mailto:olorunsolavictorp@gmail.com"
-          // target="_blank"
-          // rel="noreferrer noopener"
-        >
+        <a href="mailto:olorunsolavictorp@gmail.com">
           <div className="rounded-full h-16 w-16 flex items-center justify-center  cursor-pointer  active:bg-[#6408f947] bg-white hover:scale-110 hover:bg-indigo-300/30  transition duration-500 active:text-white  hover:shadow-lg active:shadow-none shadow-xl">
             <RiMailLine className="text-black" />
           </div>
