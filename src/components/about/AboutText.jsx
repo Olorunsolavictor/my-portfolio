@@ -54,7 +54,7 @@ function AboutText() {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://drive.google.com/file/d/1JESLLuXWtRk7XEbiGcK6ncCGWW1-eRnD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1H8WSZ1svIjhqhsP_1PlDII3YPu1nnILs/view?usp=sharing"
         >
           <button className=" block bg-purple-800 hover:bg-purple-800/70 active:bg-purple-300 px-4 py-2 text-white rounded-md font-poppins font-[700]">
             Resume

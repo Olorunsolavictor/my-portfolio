@@ -13,9 +13,7 @@ const MenuItems = ({ showMenu, active }) => {
             : "hidden"
         }
       >
-        {/* <div className="absolute right-[20vw] sm:top-4 md:top-6 md:scale-150 cursor-pointer"> */}
         <AiOutlineClose onClick={showMenu} />
-        {/* </div> */}
         <li className="font-poppins font-[300]">
           <Link
             className="text-[#2d283e] hover:text-purple-900"
