@@ -33,6 +33,7 @@ function Projects() {
       id: 3,
       name: "TheGyms Private Fitness",
       description: "A live fitness website",
+      page: "/thegym",
       image: thegyms,
       link: "https://thegyms.ca/",
       gitHub: "https://thegyms.ca/",

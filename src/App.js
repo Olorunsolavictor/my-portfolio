@@ -6,6 +6,7 @@ import { ReactComponent as LoadingIcon } from "./assets/loading-icon.svg";
 const LandingPage = lazy(() => import("./components/LandingPage"));
 const ProjectDetails = lazy(() => import("./components/ProjectDetails"));
 const ShopOut = lazy(() => import("./components/ShopOut"));
+const TheGym = lazy(() => import("./components/TheGym"));
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/projectdetails" element={<ProjectDetails />} />
           <Route path="/shopout" element={<ShopOut />} />
+          <Route path="/thegym" element={<TheGym />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
