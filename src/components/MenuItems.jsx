@@ -65,7 +65,7 @@ const MenuItems = ({ showMenu, active }) => {
           </Link>
         </li>
         <a
-          href="https://drive.google.com/file/d/1H8WSZ1svIjhqhsP_1PlDII3YPu1nnILs/view?usp=sharing"
+          href="https://drive.google.com/file/d/1GPtL8wpfv-hfeSelIkfCyfLsI_mpmB1E/view?usp=drive_link"
           target="_blank"
           rel="noreferrer noopener"
         >

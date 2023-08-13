@@ -49,7 +49,7 @@ function Projects() {
   ];
   return (
     <div
-      className="bg-white w-full py-10 sm:h-[1500px] md:h-[100%] lg:h-[650px] flex flex-col items-center lg:justify-center md:justify-evenly"
+      className="bg-white w-full py-10  md:h-[100%] lg:h-[650px] flex flex-col items-center lg:justify-center md:justify-evenly"
       id="projects"
     >
       <Title className="font-mont text-center flex flex-col  items-center justify-center md:mt-4  sm:mt-[50px] mt-[50px]  ">
@@ -58,7 +58,7 @@ function Projects() {
         </span>
         <hr className="w-[50%] h-[2px] bg-gray-300 rounded border-0 mb-10" />
       </Title>
-      <ProjectCard className="" projectList={projectList} />
+      <ProjectCard className="h-auto" projectList={projectList} />
     </div>
   );
 }

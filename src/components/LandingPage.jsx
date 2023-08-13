@@ -30,7 +30,7 @@ function LandingPage() {
     });
   };
   return (
-    <div className="relative md:bg-[#f7f7f7] sm:bg-white h-screen flex flex-col  items-center">
+    <div className="relative md:bg-[#f7f7f7] sm:bg-white  flex flex-col  items-center">
       {scrollUp && (
         <button
           onClick={bottomToTop}
@@ -49,7 +49,7 @@ function LandingPage() {
       <div className="bg-white flex justify-center items-center">
         <About />
       </div>
-      <div className=" bg-[#f7f7f7]   w-full ">
+      <div className=" bg-[#f7f7f7] w-full ">
         <Skills />
       </div>
       <div className=" w-full flex  items-center justify-center md:h-auto sm:h-auto ">

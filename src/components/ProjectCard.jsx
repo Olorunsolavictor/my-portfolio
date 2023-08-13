@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 function ProjectCard({ projectList }) {
   const navigate = useNavigate();
   return (
-    <div className=" w-full flex sm:flex-col md:flex-row  sm:justify-between sm:h-[900px] md:h-[400px]  md:justify-evenly items-center  ">
+    <div className=" w-full flex flex-col md:flex-row p-6   justify-evenly bg-white h-auto md:justify-evenly items-center  ">
       {projectList.map((project) => (
         <Fade key={project.id}>
           <div className="shadow-md hover:shadow-2xl font-month-[400px] sm:w-[300px] md:w-[300px] sm:my-[50px] ">
