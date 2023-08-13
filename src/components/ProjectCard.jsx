@@ -17,7 +17,7 @@ function ProjectCard({ projectList }) {
                 className="bg-white h-[250px] flex items-center  justify-center "
                 component="img"
               >
-                <img src={project.image} alt="logo" />
+                <img src={project.image} alt="logo" className="max-w-[60%]" />
               </div>
 
               <CardContent className="bg-white text-gray-900 text-center">

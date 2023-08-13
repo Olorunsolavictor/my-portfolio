@@ -1,8 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import handoutLogo from "../assets/handoutLogo.png";
-import utube from "../assets/utube.jpg";
-import shop from "../assets/shop.jpg";
+import thegyms from "../assets/thegyms.png";
+import rotary from "../assets/rotary.png";
+import fairfield from "../assets/fairfield.png";
 import { Typography } from "antd";
 
 function Projects() {
@@ -21,18 +22,29 @@ function Projects() {
     },
     {
       id: 2,
-      name: "Shop it",
-      description: "An e-commerce platform",
-      image: shop,
+      name: "Rotary Club Phoenix",
+      description: "An official non-profit website",
+      image: rotary,
       page: "/shopout",
-      link: "https://shop-out.netlify.app",
-      gitHub: "https://github.com/Olorunsolavictor/shop-out",
+      link: "https://rcpphphoenix.org/",
+      gitHub: "https://rcpphphoenix.org/",
     },
     {
       id: 3,
-      name: "Youtube and API",
-      description: "A platform that functions like youtube.",
-      image: utube,
+      name: "TheGyms Private Fitness",
+      description: "A live fitness website",
+      image: thegyms,
+      link: "https://thegyms.ca/",
+      gitHub: "https://thegyms.ca/",
+    },
+    {
+      id: 4,
+      name: "Fairfield",
+      description: "An Architectural Firm Website",
+      image: fairfield,
+      link: "https://preview.webflow.com/preview/architecture-b036e6?utm_medium=preview_link&utm_source=dashboard&utm_content=architecture-b036e6&preview=6facf409b82b26898f3b4201d199d03f&workflow=preview",
+      gitHub:
+        "https://preview.webflow.com/preview/architecture-b036e6?utm_medium=preview_link&utm_source=dashboard&utm_content=architecture-b036e6&preview=6facf409b82b26898f3b4201d199d03f&workflow=preview",
     },
   ];
   return (

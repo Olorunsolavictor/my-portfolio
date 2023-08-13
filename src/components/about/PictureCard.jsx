@@ -1,4 +1,4 @@
-import portrait from "../../assets/portrait.png";
+import portrait from "../../assets/portrait.jpg";
 import React from "react";
 import "antd/dist/antd.css";
 import { Card } from "antd";
