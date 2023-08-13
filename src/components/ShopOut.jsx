@@ -133,12 +133,12 @@ function ProjectDetails() {
 
       <div className="text-center h-auto sm:w-[90%] md:w-[60%]  bg-[#f8a508]/40 rounded-md shadow-xl p-10 mb-[100px]">
         <div className="text-center flex flex-col items-center mt-[0px] md:mb-[20px] sm:mb-[20px]">
-          <span className="text-white font-poppins font-[200] sm:text-[22px] md:text-[30px]">
+          <span className="text-gray-600  font-poppins font-[200] sm:text-[22px] md:text-[30px]">
             Closing Message
           </span>
-          <hr className="w-[5%] h-[2px] bg-gray-300 rounded border-0 " />
+          <hr className="w-[5%] h-[2px] bg-[#25488d] rounded border-0 " />
         </div>
-        <p className="mb-[10px] text-white font-poppins font-[400]">
+        <p className="mb-[10px] text-gray-600 font-poppins font-[400]">
           "Thank you for taking your time to view this project. I hope you found
           it informative and it gave you a sense of my skills and experience in
           Frontend Web Development. If you have any questions, or would like to
