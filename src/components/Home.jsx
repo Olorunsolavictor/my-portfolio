@@ -16,7 +16,7 @@ function Home() {
           Olorunsola
         </span>
         ,
-        <br />a budding Frontend Developer from
+        <br />a budding Web Developer from
         <br />
         <Bounce>
           <span className="text-yellow-500 font-normal">Lagos.</span>
@@ -24,12 +24,11 @@ function Home() {
       </h1>
 
       <p className="text-gray-900 md:font-[200] sm:font-[200] font-poppins md:text-[17px] sm:w-[92%]">
-        I create functional and scalable frontend products with amazing user
-        experiences.
+        I create functional and scalable products with amazing user experiences.
       </p>
       <div className="flex justify-evenly bg-white md:shadow-xl sm:shadow-md  hover:backdrop-blur-sm rounded-lg sm:w-[95%] md:w-[100%]  ">
         <a
-          href="https://linkedin.com/in/victor-olorunsola-93037a197"
+          href="https://linkedin.com/in/victor-olorunsola"
           target="_blank"
           rel="noreferrer noopener"
         >

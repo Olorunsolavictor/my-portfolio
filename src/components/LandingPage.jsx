@@ -65,7 +65,7 @@ function LandingPage() {
         <footer className="sm:w-[90%] md:w-[60%]  h-auto p-10 flex flex-col justify-center mb-10 items-center">
           <div className="flex justify-evenly bg-white md:shadow-xl sm:shadow-md mb-5 hover:backdrop-blur-sm rounded-lg sm:w-[100%] md:w-[60%]  ">
             <a
-              href="https://linkedin.com/in/victor-olorunsola-93037a197"
+              href="https://linkedin.com/in/victor-olorunsola"
               target="_blank"
               rel="noreferrer noopener"
             >
